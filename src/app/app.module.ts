@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ShwetaComponent } from './shweta/shweta.component';
 
 import { RaviComponent } from './ravi/ravi.component';
 
@@ -14,6 +15,8 @@ import { YugandharComponent } from './yugandhar/yugandhar.component';
   declarations: [
     AppComponent,
 
+    ShwetaComponent,
+
     RaviComponent,
 
     
@@ -21,6 +24,7 @@ import { YugandharComponent } from './yugandhar/yugandhar.component';
     
     
     YugandharComponent
+
 
   ],
   imports: [
