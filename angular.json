@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Shridhar-demo"
+  "defaultProject": "Shridhar-demo",
+  "cli": {
+    "analytics": false
+  }
 }
