@@ -3,12 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import { RaviComponent } from './ravi/ravi.component';
+
+
+
 import { YugandharComponent } from './yugandhar/yugandhar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+
+    RaviComponent,
+
+    
+    
+    
+    
     YugandharComponent
+
   ],
   imports: [
     BrowserModule,
